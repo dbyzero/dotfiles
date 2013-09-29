@@ -1,0 +1,4 @@
+#vbell_msg "bell: window ~%" # Message for visual bell
+#vbellwait 2 # Seconds to pause the screen for visual bell
+vbell off # Turns visual bell off
+#escape ^Uu

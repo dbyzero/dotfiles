@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/var/node'
+let g:netrw_dirhist_2='/var/node/deimos'
+let g:netrw_dirhist_3='/var/node/deimos/models'
+let g:netrw_dirhist_4='/var/node/deimos'
+let g:netrw_dirhist_5='/var/node/deimos/actions'
+let g:netrw_dirhist_6='/var/node/deimos'
+let g:netrw_dirhist_7='/var/node/deimos/models'
+let g:netrw_dirhist_8='/home/half/.fluxbox'

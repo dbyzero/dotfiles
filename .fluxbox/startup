@@ -1,0 +1,34 @@
+#!/bin/sh
+#
+# fluxbox startup-script:
+#
+# Lines starting with a '#' are ignored.
+
+# Change your keymap:
+xmodmap "/home/half/.Xmodmap"
+
+# Applications you want to run with fluxbox.
+# MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
+#
+# unclutter -idle 2 &
+# wmnd &
+# wmsmixer -w &
+# idesk &
+fbsetbg -l &
+nm-applet &
+conky &
+#gkrellm &
+#nautilus &
+
+# And last but not least we start fluxbox.
+# Because it is the last app you have to run it with ''exec'' before it.
+
+setxkbmap tw,fr -option "grp:alt_shift_toggle" &
+
+synclient TapButton1=1 &
+
+#xrdb /home/half/.Xresource &
+
+exec fluxbox
+# or if you want to keep a log:
+# exec fluxbox -log "/home/half/.fluxbox/log"
