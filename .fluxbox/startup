@@ -27,6 +27,8 @@ setxkbmap tw,fr -option "grp:alt_shift_toggle" &
 
 synclient TapButton1=1 &
 
+xfce4-power-manager &
+
 #xrdb /home/half/.Xresource &
 
 exec fluxbox

@@ -141,7 +141,7 @@ Mod1 X  :Exec xrdb ~/.Xresources ; xterm
 Mod1 F  :Exec firefox 
 Mod1 G  :Exec chromium
 Mod1 C  :Exec pidgin
-Mod1 A  :Exec amarok
+Mod1 A  :Exec clementine
 Mod1 M  :Exec icedove
 Mod1 S  :Exec skype
 Mod1 V  :Exec VirtualBox
@@ -150,3 +150,5 @@ Mod1 E  :Exec nautilus --no-desktop
 Mod1 L  :Exec xscreensaver-command -lock
 Mod1 1  :Exec setxkbmap tw,fr -option "grp:alt_shift_toggle"
 Mod1 2  :Exec setxkbmap fr,tw -option "grp:alt_shift_toggle"
+Mod1 Mod4 m None d t :ExecCommand xvkbd -text "\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]\r\[Down]"
+(Windows + Alt + m) d t
