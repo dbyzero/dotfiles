@@ -105,6 +105,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 JAVA_HOME="/usr/java/jdk1.7.0_07/"
+
 export JAVA_HOME
 
 alias load_deimos='/opt/node/bin/node /var/node/deimos_server/main.js'
