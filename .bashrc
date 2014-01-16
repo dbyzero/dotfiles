@@ -112,4 +112,7 @@ alias load_deimos='/opt/node/bin/node /var/node/deimos_server/main.js'
 
 export EDITOR='vim'
 
-source .liquidprompt/liquidprompt
+wpsetters=feh xsetroot
+export wpsetters
+
+source ~/.liquidprompt/liquidprompt

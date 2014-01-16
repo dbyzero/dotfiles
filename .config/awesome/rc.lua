@@ -76,7 +76,7 @@ tags = {}
 for s = 1, screen.count() do
     -- Each screen has its own tag table.
     tags[s] = awful.tag(
-        { "browser(1)", "ide(2)", "shells(3)", "communications(4)", "mail(5)", 6, 7, 8, 9 }, 
+        { "wwww(1)", "devel(2)", "shells(3)", "social(4)", "mail(5)", 6, 7, 8, 9 }, 
         s, 
         { layouts[2], layouts[5], layouts[2], layouts[2], layouts[5], layouts[2], layouts[2], layouts[2], layouts[2] }
     )
@@ -108,6 +108,12 @@ mytextclock = awful.widget.textclock({ align = "right" })
 
 -- Create a systray
 mysystray = widget({ type = "systray" })
+
+-- Testing widget
+myicon = widget({ type = "imagebox" })
+myicon.image = image(awful.util.getdir("config") .. "/myicon.png")
+mytextbox = widget({type = "textbox"})
+mytextbox.text = " ~ "
 
 -- Create a wibox for each screen and add it
 mywibox = {}
@@ -181,7 +187,8 @@ for s = 1, screen.count() do
             mylauncher,
             mytaglist[s],
             mypromptbox[s],
-            layout = awful.widget.layout.horizontal.leftright
+            layout = awful.widget.layout.horizontal.leftright,
+            mytextbox
         },
         mylayoutbox[s],
         mytextclock,
