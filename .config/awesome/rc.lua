@@ -268,8 +268,9 @@ globalkeys = awful.util.table.join(
 
     -- Customs
     awful.key({ altkey,           }, "s", function () awful.util.spawn( "subl" ) end),
-    awful.key({ altkey,           }, "f", function () awful.util.spawn( "firefox" ) end),
-    awful.key({ altkey,           }, "g", function () awful.util.spawn( "google-chrome" ) end),
+    awful.key({ altkey,           }, "f", function () awful.util.spawn( "iceweasel" ) end),
+    awful.key({ altkey,           }, "g", function () awful.util.spawn( "chromium" ) end),
+    awful.key({ altkey,           }, "m", function () awful.util.spawn( "icedove" ) end),
     awful.key({ altkey,           }, "x", function () awful.util.spawn( terminal ) end)
 )
 

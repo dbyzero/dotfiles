@@ -1,6 +1,6 @@
 xterm*background:grey10
 xterm*foreground:cornsilk1
-xterm*font: terminus-12
+xterm*font: terminus-16
 xterm*vt100*geometry: 80x30
 
 ! Black
